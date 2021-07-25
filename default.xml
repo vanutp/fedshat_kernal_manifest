@@ -1,9 +1,10 @@
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
+  <remote name="github" fetch="https://github.com/" />
   <default revision="android-msm-crosshatch-4.9-android12"
     remote="aosp" sync-j="4" />
 
-  <project path="private/msm-google" name="kernel/msm" >
+  <project path="private/msm-google" name="vanutp/fedshat_kernal" remote="github" >
     <linkfile src="build.config.bluecross" dest="build.config" />
     <linkfile src="build_bluecross.sh" dest="build_bluecross.sh" />
     <linkfile src="build_bonito.sh" dest="build_bonito.sh" />
