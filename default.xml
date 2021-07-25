@@ -18,5 +18,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="android11-release" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="537e01a6ff78760ee5b69597efdbc47bc721058d" clone-depth="1" groups="partner" />
   <project path="prebuilts-master/misc" name="platform/prebuilts/misc" revision="android11-release" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="master"/>
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master"/>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="master"/>
+
 </manifest>
 
