@@ -1,10 +1,11 @@
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote name="github" fetch="https://github.com" />
   <default revision="android-msm-crosshatch-4.9-android11-qpr3"
     remote="aosp" sync-j="4" />
 
   <project path="build" name="kernel/build" revision="master"/>
-  <project path="private/msm-google" name="kernel/msm" >
+  <project path="private/msm-google" name="vanutp/fedshat_kernal" remote="github">
     <linkfile src="build.config.bluecross_no-cfi" dest="build.config" />
   </project>
   <project path="private/msm-google/techpack/audio" name="kernel/msm-extra" />
