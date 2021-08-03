@@ -19,6 +19,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="master"/>
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="master"/>
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="master"/>
+  <project path="private/stock" name="FedShat/stock-ramdisk" remote="github" clone-depth="1" />
 
 </manifest>
 
